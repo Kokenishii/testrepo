@@ -9,14 +9,14 @@ public class SphereBehavior : MonoBehaviour
     void Start()
     {
         GetComponent<Rigidbody>().AddForce(new Vector3(xForce, 0, 0), ForceMode.Impulse);
-	print("1");
+	
     }
 
     // Update is called once per frame
     void Update()
     {
         //transform.position += new Vector3(0,-0.1f,0);
-        
+        print("2");
 
     }
 
